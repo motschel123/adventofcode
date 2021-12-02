@@ -1,3 +1,5 @@
+# only for puzzel1 a)
+
 with open("input.txt", "r") as file:
     values = file.read()
     values = values.split('\n')

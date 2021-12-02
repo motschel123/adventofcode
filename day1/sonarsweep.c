@@ -5,7 +5,7 @@
 #include "errno.h"
 #include "string.h"
 
-int puzzle1(const long nums[], int length)
+int puzzleA(const long nums[], int length)
 {
     // edge case with to little input
     if (length < 2)
@@ -30,7 +30,7 @@ int puzzle1(const long nums[], int length)
     return counter;
 }
 
-int puzzle2(const long nums[], int length)
+int puzzleB(const long nums[], int length)
 {
     // edge case with to little input
     if (length < 4)
@@ -115,11 +115,11 @@ int main(int argc, char **argv)
     int count;
     if (puzzle == 2)
     {
-        count = puzzle2(nums, used);
+        count = puzzleB(nums, used);
     }
     else
     {
-        count = puzzle1(nums, used);
+        count = puzzleA(nums, used);
     }
 
     printf("Counted: %i increases", count);
