@@ -6,5 +6,5 @@ My solutions to the [#adventofcode](https://adventofcode.com) daily puzzles, try
 
 ## Days
  
-[Day 1](https://github.com/motschel123/adventofcode/tree/main/day1) using c
+[Day 1](https://github.com/motschel123/adventofcode/tree/main/day1) using c \n
 Day 2 using C#
