@@ -5,6 +5,6 @@ My solutions to [#adventofcode's](https://adventofcode.com) (2021) daily puzzles
 
 ## Days
 
-[Day 1](https://github.com/motschel123/adventofcode/tree/main/day1) using c
+[Day 1](https://github.com/motschel123/adventofcode/tree/main/src/day1) using c
 
-Day 2 using C#
+[Day 2](https://github.com/motschel123/adventofcode/tree/main/src/day2) using C#
