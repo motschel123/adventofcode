@@ -1,7 +1,7 @@
 # adventofcode
 My solutions to [#adventofcode's](https://adventofcode.com) (2021) daily puzzles, trying to use a lot of different languages.
 
-**Let's help 🎅 and safe christmas🎄**
+**Let's help 🎅 and save christmas🎄**
 
 ## Days
 
