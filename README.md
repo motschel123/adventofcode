@@ -1,7 +1,7 @@
 # adventofcode
 My solutions to [#adventofcode's](https://adventofcode.com) (2021) daily puzzles using c++ for practice purposes;
 
-**Let's help 🎅 and safe christmas🎄**
+**Let's help 🎅 and save christmas🎄**
 
 ## Days
 
