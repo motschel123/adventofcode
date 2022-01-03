@@ -3,9 +3,10 @@ My solutions to [#adventofcode's](https://adventofcode.com) (2021) daily puzzles
 
 **Let's help 🎅 and save christmas🎄**
 
-**Generic Usage** (if not otherwise specified): *compiled_filename* < input.txt
 
 ## Days
+
+**Generic Usage: *compiled_filename < input.txt***
 
 [Day 1](https://github.com/motschel123/adventofcode/tree/main/src/day1)
 
