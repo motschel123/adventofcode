@@ -1,7 +1,0 @@
-.vscode/*
-.gitattributes
-**/*.out
-**/bin/*
-**/obj/*
-**/*.csproj
-**/*.dSYM

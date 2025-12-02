@@ -1,0 +1,7 @@
+.vscode/*
+.gitattributes
+src/day*/*.out
+src/day*/bin/*
+src/day*/obj/*
+src/day*/*.csproj
+src/day*/*.dSYM
