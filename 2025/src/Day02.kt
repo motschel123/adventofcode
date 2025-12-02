@@ -4,7 +4,7 @@ import kotlin.math.abs
 fun main() {
     println("Day 2!")
 
-    val input = File("resources/day02.txt").readText().trim()
+    val input = File("resources/input02.txt").readText().trim()
 
     val IDs = input.split(',')
         .flatMap {

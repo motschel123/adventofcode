@@ -4,7 +4,7 @@ import kotlin.math.abs
 fun main() {
     println("Day 1!")
 
-    val lines = File("resources/day01.txt").readLines()
+    val lines = File("resources/input01.txt").readLines()
 
     val rotations = lines.map {
         val value = it.substring(1).toInt()
