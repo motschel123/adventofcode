@@ -2,7 +2,7 @@ import java.io.File
 import kotlin.math.abs
 
 fun main() {
-    println("Day 1!")
+    println("Day 2!")
 
     val input = File("resources/day02.txt").readText().trim()
 
