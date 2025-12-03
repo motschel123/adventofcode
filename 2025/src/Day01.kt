@@ -4,7 +4,7 @@ import kotlin.math.abs
 fun main() {
     println("Day 1!")
 
-    val lines = File("resources/input01.txt").readLines()
+    val lines = File("2025/resources/input01.txt").readLines()
 
     val rotations = lines.map {
         val value = it.substring(1).toInt()
@@ -27,7 +27,6 @@ fun main() {
         var incr = abs(i / 100)
         val rot = i % 100
 
-        print("$currPos + $rot = ")
         if (rot != 0) {
             currPos += rot
             if (currPos == 0) incr++
@@ -40,7 +39,6 @@ fun main() {
                 if (prevPos > 0) incr++
             }
         }
-        println("$currPos => $incr")
         acc + incr
     }
 
