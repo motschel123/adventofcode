@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Fix project structure">
-      <change afterPath="$PROJECT_DIR$/.idea/adventofcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/src/Day03.kt" afterDir="false" />
+    <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 4">
+      <change afterPath="$PROJECT_DIR$/2025/src/Day04.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +37,7 @@
     "Kotlin.Day01Kt.executor": "Run",
     "Kotlin.Day02Kt.executor": "Run",
     "Kotlin.Day03Kt.executor": "Run",
+    "Kotlin.Day04Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -62,8 +57,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Day02Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day02Kt" />
+    <configuration name="Day002Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day002Kt" />
       <module name="adventofcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,7 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day02Kt" />
+        <item itemvalue="Kotlin.Day002Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +80,7 @@
       <workItem from="1764618380520" duration="14431000" />
       <workItem from="1764757939600" duration="73000" />
       <workItem from="1764758014126" duration="19000" />
-      <workItem from="1764758040492" duration="5348000" />
+      <workItem from="1764758040492" duration="12551000" />
     </task>
     <task id="LOCAL-00001" summary="Fix project structure">
       <option name="closed" value="true" />
@@ -103,7 +98,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764758743635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 3">
+      <option name="closed" value="true" />
+      <created>1764771260424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764771260424</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day 2 new layout">
+      <option name="closed" value="true" />
+      <created>1764840936660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764840936660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +122,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix project structure" />
+    <MESSAGE value="Day 3" />
+    <MESSAGE value="Day 2 new layout" />
+    <MESSAGE value="Day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
