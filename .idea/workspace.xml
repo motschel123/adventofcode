@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 4">
-      <change afterPath="$PROJECT_DIR$/2025/src/Day04.kt" afterDir="false" />
+    <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 5">
+      <change afterPath="$PROJECT_DIR$/2025/src/Day05.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
     "Kotlin.Day02Kt.executor": "Run",
     "Kotlin.Day03Kt.executor": "Run",
     "Kotlin.Day04Kt.executor": "Run",
+    "Kotlin.Day05Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -49,7 +50,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/marcelschoeckel/Dev/adventofcode/src/Main.kt",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
@@ -80,7 +81,8 @@
       <workItem from="1764618380520" duration="14431000" />
       <workItem from="1764757939600" duration="73000" />
       <workItem from="1764758014126" duration="19000" />
-      <workItem from="1764758040492" duration="12551000" />
+      <workItem from="1764758040492" duration="12635000" />
+      <workItem from="1764936108150" duration="6059000" />
     </task>
     <task id="LOCAL-00001" summary="Fix project structure">
       <option name="closed" value="true" />
@@ -114,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764840936660</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 4">
+      <option name="closed" value="true" />
+      <created>1764840970770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764840970770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +135,8 @@
     <MESSAGE value="Day 3" />
     <MESSAGE value="Day 2 new layout" />
     <MESSAGE value="Day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4" />
+    <MESSAGE value="Day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
