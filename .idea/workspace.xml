@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 5">
-      <change afterPath="$PROJECT_DIR$/2025/src/Day05.kt" afterDir="false" />
+    <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 6">
+      <change afterPath="$PROJECT_DIR$/2025/src/Day06.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/src/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/src/Day02.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -39,6 +43,7 @@
     "Kotlin.Day03Kt.executor": "Run",
     "Kotlin.Day04Kt.executor": "Run",
     "Kotlin.Day05Kt.executor": "Run",
+    "Kotlin.Day06Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -82,7 +87,7 @@
       <workItem from="1764757939600" duration="73000" />
       <workItem from="1764758014126" duration="19000" />
       <workItem from="1764758040492" duration="12635000" />
-      <workItem from="1764936108150" duration="6059000" />
+      <workItem from="1764936108150" duration="12650000" />
     </task>
     <task id="LOCAL-00001" summary="Fix project structure">
       <option name="closed" value="true" />
@@ -124,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764840970770</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 5">
+      <option name="closed" value="true" />
+      <created>1764974538787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764974538787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +149,8 @@
     <MESSAGE value="Day 2 new layout" />
     <MESSAGE value="Day 4" />
     <MESSAGE value="Day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5" />
+    <MESSAGE value="Day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
