@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 6">
-      <change afterPath="$PROJECT_DIR$/2025/src/Day06.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/src/Day07.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/src/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/src/Day02.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "Kotlin.Day04Kt.executor": "Run",
     "Kotlin.Day05Kt.executor": "Run",
     "Kotlin.Day06Kt.executor": "Run",
+    "Kotlin.Day07Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,7 +87,7 @@
       <workItem from="1764757939600" duration="73000" />
       <workItem from="1764758014126" duration="19000" />
       <workItem from="1764758040492" duration="12635000" />
-      <workItem from="1764936108150" duration="12650000" />
+      <workItem from="1764936108150" duration="18809000" />
     </task>
     <task id="LOCAL-00001" summary="Fix project structure">
       <option name="closed" value="true" />
@@ -137,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764974538787</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Day 6">
+      <option name="closed" value="true" />
+      <created>1765061295990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765061295990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
