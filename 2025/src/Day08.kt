@@ -28,35 +28,41 @@ fun main() {
         }
         val sortedDistances = distances.entries.sortedBy { it.value }
 
-        val circuitMap = mutableMapOf<Int, Int>()
-        var circuits = 0
-        var connections = -1
-        while (++connections < 1000) {
-            val minEntry = sortedDistances.drop(connections).first()
+        val circuits = mutableMapOf<Int, MutableSet<Int>>()
+        val idMappings = mutableMapOf<Int, Int>()
+        var connections = 0
+        var nextCircuitId = 1
 
-            val minId = minEntry.key.toList().min()
-            val maxId = minEntry.key.toList().max()
+        while (connections < 1000) {
+            val minEntry = sortedDistances.get(connections++)
 
-            val circuitId = circuitMap.getOrPut(minId, { ++circuits })
-            val secCircuit = circuitMap[maxId]
-            if (secCircuit == null) {
-                circuitMap.put(maxId, circuitId)
+            val firstId = idMappings[minEntry.key.first]
+            val secondId = idMappings[minEntry.key.second]
+
+            if (firstId != null && secondId != null) {
+                if (firstId == secondId) continue
+
+                val combineId = min(firstId, secondId)
+                val removeId = max(firstId, secondId)
+
+                circuits[combineId]!!.addAll(circuits[removeId].orEmpty())
+                idMappings.putAll(circuits[removeId]!!.map { id -> Pair(id, combineId) })
+                circuits.remove(removeId)
+            } else if (firstId != null) {
+                circuits[firstId]!!.add(minEntry.key.second)
+                idMappings.put(minEntry.key.second, firstId)
+            } else if (secondId != null) {
+                circuits[secondId]!!.add(minEntry.key.first)
+                idMappings.put(minEntry.key.first, secondId)
             } else {
-                circuitMap.filter { it.value == secCircuit }.forEach { circuitMap.set(it.key, circuitId)}
+                circuits.put(nextCircuitId, mutableSetOf(minEntry.key.first, minEntry.key.second))
+                idMappings.put(minEntry.key.first, nextCircuitId)
+                idMappings.put(minEntry.key.second, nextCircuitId)
+                nextCircuitId++
             }
         }
 
-        input.indices.minus(circuitMap.keys).forEach {
-            circuitMap.put(it, ++circuits)
-        }
-
-        val resultMap = mutableMapOf<Int, ULong>()
-
-        circuitMap.values.toSet().forEach { id ->
-            resultMap.put(id, circuitMap.filter { it.value == id }.count().toULong())
-        }
-
-        return resultMap.values.sortedDescending().take(3).reduce { acc, i -> acc * i }.toString()
+        return circuits.values.map{ it.size }.sortedDescending().take(3).reduce { acc, i -> acc * i }.toString()
     }
 
     fun part2(input: List<Triple<Int, Int, Int>>): String {
@@ -76,25 +82,40 @@ fun main() {
 
         val sortedDistances = distances.entries.sortedBy { it.value }
 
-        val circuitMap = mutableMapOf<Int, Int>()
-        var circuits = 0
+        val circuits = mutableMapOf<Int, MutableSet<Int>>()
+        val idMappings = mutableMapOf<Int, Int>()
         var connections = 0
-        while (!(circuitMap.values.toSet().size == 1 && circuitMap.size == input.size)) {
-            val minEntry = sortedDistances.drop(connections++).first()
+        var nextCircuitId = 1
+        while (!(circuits.size == 1 && circuits.any { it.value.size == input.size })) {
+            val minEntry = sortedDistances.get(connections++)
 
-            val minId = minEntry.key.toList().min()
-            val maxId = minEntry.key.toList().max()
+            val firstId = idMappings[minEntry.key.first]
+            val secondId = idMappings[minEntry.key.second]
 
-            val circuitId = circuitMap.getOrPut(minId, { ++circuits })
-            val secCircuit = circuitMap[maxId]
-            if (secCircuit == null) {
-                circuitMap.put(maxId, circuitId)
+            if (firstId != null && secondId != null) {
+                if (firstId == secondId) continue
+
+                val combineId = min(firstId, secondId)
+                val removeId = max(firstId, secondId)
+
+                circuits[combineId]!!.addAll(circuits[removeId].orEmpty())
+                idMappings.putAll(circuits[removeId]!!.map { id -> Pair(id, combineId) })
+                circuits.remove(removeId)
+            } else if (firstId != null) {
+                circuits[firstId]!!.add(minEntry.key.second)
+                idMappings.put(minEntry.key.second, firstId)
+            } else if (secondId != null) {
+                circuits[secondId]!!.add(minEntry.key.first)
+                idMappings.put(minEntry.key.first, secondId)
             } else {
-                circuitMap.filter { it.value == secCircuit }.forEach { circuitMap.set(it.key, circuitId)}
+                circuits.put(nextCircuitId, mutableSetOf(minEntry.key.first, minEntry.key.second))
+                idMappings.put(minEntry.key.first, nextCircuitId)
+                idMappings.put(minEntry.key.second, nextCircuitId)
+                nextCircuitId++
             }
         }
 
-        return sortedDistances.drop(connections-1).first().key.toList().fold(1UL) { acc, id -> acc * input[id].first.toULong() }.toString()
+        return sortedDistances.get(connections-1).key.toList().fold(1UL) { acc, id -> acc * input[id].first.toULong() }.toString()
     }
 
 

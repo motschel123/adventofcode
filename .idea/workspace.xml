@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a0135b4-1f19-41fd-bd0b-c4506eafdbe3" name="Changes" comment="Day 8 slow">
-      <change afterPath="$PROJECT_DIR$/2025/src/Day08.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/src/Day08.kt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/src/Day08.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1764757939600" duration="73000" />
       <workItem from="1764758014126" duration="19000" />
       <workItem from="1764758040492" duration="12635000" />
-      <workItem from="1764936108150" duration="31181000" />
+      <workItem from="1764936108150" duration="33177000" />
     </task>
     <task id="LOCAL-00001" summary="Fix project structure">
       <option name="closed" value="true" />
@@ -154,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765132509040</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 8 slow">
+      <option name="closed" value="true" />
+      <created>1765211605347</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765211605347</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
