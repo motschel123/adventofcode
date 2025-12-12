@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="ejml.all" type="repository">
+    <properties maven-id="org.ejml:ejml-all:0.44.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ejml-all-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-core-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-fdense-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-ddense-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-cdense-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-zdense-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-dsparse-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-simple-0.44.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-fsparse-0.44.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/ejml-all-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-core-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-fdense-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-ddense-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-cdense-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-zdense-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-dsparse-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-simple-0.44.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-fsparse-0.44.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/ejml-all-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-core-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-fdense-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-ddense-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-cdense-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-zdense-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-dsparse-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-simple-0.44.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejml-fsparse-0.44.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
