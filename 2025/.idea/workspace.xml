@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f55d700-20dc-4744-8625-b55a1ef7ad78" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day02.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day03.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day04.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day05.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day06.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day07.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day08.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day09.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2025.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day12.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +39,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Day" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -90,6 +74,7 @@
     "Kotlin.Day09Kt.executor": "Run",
     "Kotlin.Day10Kt.executor": "Run",
     "Kotlin.Day11Kt.executor": "Run",
+    "Kotlin.Day12Kt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -103,8 +88,8 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/marcelschoeckel/Dev/adventofcode/2025/src/main/kotlin/Main.kt",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.23655914",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -139,8 +124,17 @@
       <option name="presentableId" value="Default" />
       <updated>1765560330860</updated>
       <workItem from="1765560331859" duration="270000" />
-      <workItem from="1765560610259" duration="924000" />
+      <workItem from="1765560610259" duration="6418000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1765561543557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765561543557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
